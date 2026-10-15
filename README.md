@@ -1,7 +1,6 @@
 # unikraft-opencv-hello
 
-A minimal Unikraft unikernel using
-[unikraft-lib-opencv](https://github.com/rizo/unikraft-lib-opencv).
+A minimal Unikraft unikernel using [lib-opencv](https://github.com/rizo/lib-opencv).
 
 
 ## Build
