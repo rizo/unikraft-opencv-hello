@@ -1,4 +1,4 @@
-# unikraft-opencv-example
+# unikraft-opencv-hello
 
 A minimal Unikraft unikernel using
 [unikraft-lib-opencv](https://github.com/rizo/unikraft-lib-opencv).
