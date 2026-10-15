@@ -30,7 +30,7 @@ targets:
 
 libraries:
   opencv:
-    source: https://github.com/rizo/unikraft-lib-opencv.git
+    source: https://github.com/rizo/lib-opencv.git
     version: main
   musl:
     version: 0.20.0
