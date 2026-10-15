@@ -10,6 +10,13 @@ APPOPENCVHELLO_CFLAGS-y +=
 APPOPENCVHELLO_CXXFLAGS-y += -std=c++17
 
 ################################################################################
+# Includes
+################################################################################
+# Fallback to compiler includes (for intrinsics)
+# FIXME: is it possible to push this into lib-opencv?
+APPOPENCVHELLO_CXXINCLUDES-y += -idirafter$(shell $(CXX) -print-file-name=include)
+
+################################################################################
 # Sources
 ################################################################################
 APPOPENCVHELLO_SRCS-y += $(APPOPENCVHELLO_BASE)/main.cpp
