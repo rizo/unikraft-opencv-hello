@@ -2,3 +2,4 @@ tmp
 .unikraft
 .config
 .config.*
+_petrel
